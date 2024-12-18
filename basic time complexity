@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int sum(int x,int y){
+    int result=0;
+    for(int i=x;i<=y;i++){
+        result += i;
+}
+    return result;                     //Basic algorithum
+    }
+
+int main(){
+    int x=sum(1,10);
+    cout<<x;
+    return 0;
+}
+# Time-and-complexity
